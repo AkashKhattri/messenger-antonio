@@ -10,7 +10,9 @@ const nextConfig = {
             "lh3.googleusercontent.com"
         ]
     },
-
+    env: {
+        NEXTAUTH_URL: process.env.DEPLOY_PRIME_URL,
+    }
 }
 
 module.exports = nextConfig
